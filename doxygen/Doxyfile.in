@@ -14,7 +14,7 @@ PROJECT_NUMBER         = @MAJOR_VERSION@.@MINOR_VERSION@.@PATCH_VERSION@
 STRIP_FROM_PATH        = @CMAKE_CURRENT_SOURCE_DIR_LINUX@ \ 
                          @PROJECT_SOURCE_DIR_LINUX@
 INPUT                  = @CMAKE_CURRENT_SOURCE_DIR_LINUX@ \ 
-                         @PROJECT_SOURCE_DIR_LINUX@/src
+                         @PROJECT_SOURCE_DIR_LINUX@/source
 FILE_PATTERNS          = *.h \
                          *.hpp \
                          *.hh \
